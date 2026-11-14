@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">BlindStory</string>
+    <string name="app_subtitle">Žaidimas „Aklas pasakojimas“</string>
+    <string name="btn_choose_language">Kalbos pasirinkimas</string>
+    <string name="auto_redirect_splash">Automatinis perėjimas po %d sek...</string>
+    <string name="select_language_title">Pasirinkite sąsajos kalbą</string>
+    <string name="auto_redirect_lang">Automatinis perėjimas po %d sek...</string>
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hebrew">עברית</string>
+    <string name="lang_lithuanian">Lietuvių</string>
+    <string name="btn_continue">Tęsti</string>
+    <string name="welcome_main">Sveiki atvykte į BlindStory!</string>
+
+    <!-- Main Screen Strings -->
+    <string name="main_create_room">Sukurti kambarį</string>
+    <string name="main_join_by_code">Prisijungti pagal kodą</string>
+    <string name="main_my_stories">Mano pasakojimai</string>
+    <string name="main_profile">Profilis</string>
+    <string name="main_public_rooms">Vieši kambariai</string>
+    <string name="main_no_public_rooms">Šiuo metu nėra aktyvių viešų kambarių</string>
+    <string name="dialog_join_title">Įveskite kambario kodą</string>
+    <string name="dialog_join_hint">pvrz. KOT123</string>
+    <string name="dialog_join_btn">Prisijungti</string>
+    <string name="dialog_cancel">Atšaukti</string>
+    <string name="code_empty_error">Prašome įvesti kambario kodą</string>
+    <string name="feature_coming_soon">Ši funkcija bus pasiekiama greitai!</string>
+
+    <!-- Auth Screen Strings -->
+    <string name="auth_title_login">Paskyros prisijungimas</string>
+    <string name="auth_title_register">Registracija</string>
+    <string name="auth_explanation">Registracija reikalinga norint išsaugoti jūsų pasakojimus ir apsaugoti žaidimą nuo žiūrėjimo.</string>
+    <string name="auth_email_hint">El. paštas</string>
+    <string name="auth_password_hint">Slaptažodis</string>
+    <string name="auth_confirm_password_hint">Patvirtinkite slaptažodį</string>
+    <string name="auth_display_name_hint">Vardas žaidime (pvrz. Katinas)</string>
+    <string name="auth_btn_login">Prisijungti</string>
+    <string name="auth_btn_register">Užsiregistruoti</string>
+    <string name="auth_btn_google">Prisijungti su Google</string>
+    <string name="auth_toggle_to_register">Neturite paskyros? Užsiregistruoti</string>
+    <string name="auth_toggle_to_login">Jau turite paskyrą? Prisijungti</string>
+    <string name="auth_err_empty">Prašome užpildyti visus laukus</string>
+    <string name="auth_err_password_match">Slaptažodžiai nesutampa</string>
+    <string name="auth_success_login">Sveiki sugrįžę!</string>
+    <string name="auth_success_register">Paskyra sėkmingai sukurta!</string>
+    <string name="auth_logged_in_as">Prisijungęs kaip: %s</string>
+    <string name="auth_btn_logout">Atsijungti</string>
+
+    <!-- Create Room & Lobby Strings -->
+    <string name="create_room_title">Sukurti kambarį</string>
+    <string name="room_name_hint">Kambario pavadinimas (pvrz. Kosmosas)</string>
+    <string name="room_topic_hint">Pasakojimo tema</string>
+    <string name="starting_phrase_hint">Pradinė frazė</string>
+    <string name="rounds_title">Ratu skaičius</string>
+    <string name="rounds_1">1 ratas</string>
+    <string name="rounds_2">2 ratai (numatytasis)</string>
+    <string name="rounds_3">3 ratai</string>
+    <string name="rounds_3_warning">Pastaba: 3 ratai sukurs ilgą pasakojimą.</string>
+    <string name="time_limit_title">Ėjimo laiko limitas</string>
+    <string name="time_10m">10 min</string>
+    <string name="time_15m">15 min</string>
+    <string name="time_30m">30 min</string>
+    <string name="time_unlimited">Be limito</string>
+    <string name="privacy_title">Privatumas</string>
+    <string name="privacy_private">Privatus (tik pagal pakvietimą)</string>
+    <string name="privacy_public">Viešas kambarys</string>
+    <string name="ai_option_title">Įjungti DI komentarą po pabaigos</string>
+    <string name="ai_show_names_title">Rodyti autoriaus vardus DI</string>
+    <string name="btn_create_room_submit">Sukurti kambarį ir atidaryti vestibiulį</string>
+
+    <string name="lobby_title">Kambarys: %s</string>
+    <string name="lobby_host_badge">Šeimininkas</string>
+    <string name="lobby_players_title">Žaidėjai (%d)</string>
+    <string name="lobby_code_label">Kambario kodas:</string>
+    <string name="lobby_copy_code">Kopijuoti kodą</string>
+    <string name="lobby_share_link">Dalintis nuoroda</string>
+    <string name="btn_start_game">Pradėti žaidimą</string>
+    <string name="btn_need_3_players">Reikia bent 3 žaidėjų (%d/3)</string>
+    <string name="lobby_waiting_for_host">Laukiama, kol šeimininkas pradės...</string>
+    <string name="code_copied">Kambario kodas nukopijuotas!</string>
+
+    <!-- Turn / Game Screen Strings -->
+    <string name="game_turn_title">Frazė %1$d iš %2$d</string>
+    <string name="game_prev_phrase_label">Ankstesnė frazė:</string>
+    <string name="game_input_placeholder">Tęskite pasakojimą...</string>
+    <string name="game_char_counter">%1$d / %2$d</string>
+    <string name="game_sentences_hint">Iki 2 sakinių</string>
+    <string name="game_btn_submit">Siųsti</string>
+    <string name="game_phrase_accepted">Jūsų frazė priimta!</string>
+    <string name="game_current_turn_other">Dabar eina: %s</string>
+    <string name="game_btn_propose_end">Siūlyti pabaigą</string>
+    <string name="game_skip_turn">Praleisti ėjimą</string>
+    <string name="game_skip_confirm_title">Tikrai praleisti ėjimą?</string>
+    <string name="game_skip_confirm_msg">Jūsų ėjimas pereis kitam žaidėjui.</string>
+    <string name="game_skip_confirm_btn">Taip, praleisti</string>
+
+    <string name="vote_title">Balsavimas dėl pabaigos</string>
+    <string name="vote_option_round">Baigti po šio rato (Reikia daugumos)</string>
+    <string name="vote_option_immediate">Baigti iškart (Reikia vienbalsiškumo)</string>
+    <string name="vote_submitted">Balsas priimtas!</string>
+
+    <!-- Final Screen Strings -->
+    <string name="final_title">Pabaiga: %s</string>
+    <string name="final_status_completed">Pasakojimas baigtas (%d frazės)</string>
+    <string name="final_ai_button">Ką DI pasakys apie mūsų pasakojimą?</string>
+    <string name="final_ai_title">DI analizė</string>
+    <string name="final_ai_disclaimer">Tai yra DI komentaras, jame gali būti klaidų.</string>
+    <string name="final_ai_suggested_titles">Siūlomi pavadinimai:</string>
+    <string name="final_ai_summary">Santrauka:</string>
+    <string name="final_ai_funniest">Juokingiausias momentas:</string>
+    <string name="final_ai_twist">Nenuspėjamas posūkis:</string>
+    <string name="final_ai_genre">Žanras:</string>
+    <string name="final_ai_moral">Moralas:</string>
+    <string name="final_btn_rematch">Revanšas su ta pačia grupe</string>
+    <string name="final_btn_copy_story">Kopijuoti visą pasakojimą</string>
+    <string name="final_story_copied">Visas pasakojimas nukopijuotas!</string>
+
+    <!-- Menu & Guide Strings -->
+    <string name="menu_guide">Instrukcija</string>
+    <string name="menu_back">Atgal</string>
+    <string name="menu_exit">Išeiti iš programos</string>
+    <string name="guide_title">Žaidimo instrukcija ir taisyklės</string>
+    <string name="guide_content">SVEIKI ATVYKĘ Į BLINDSTORY!\n\n1. ŽAIDIMO TIKSLAS\nBlindStory yra kelių žaidėjų žaidimas, kuriame žaidėjai kartu rašo pasakojimą. Pagrindinė taisyklė: kiekvienas žaidėjas mato TIK VIENĄ ankstesnę frazę!\n\n2. PRADŽIA\n- Kalba: pasirinkite sąsajos kalbą.\n- Registracija: užsiregistruokite el. paštu arba Google.\n\n3. KAMBARIO KŪRIMAS IR PRISIJUNGIMAS\n- Šeimininkas sukuria kambarį su tema, pradine fraze ir laiko limitu.\n- Pasidalinkite 6 ženklų kodu (pvrz. KOT123) su draugais.\n- Žaidimui pradėti reikia bent 3 žaidėjų.\n\n4. KAIP ŽAISTI\n- Skaitykite tik ankstesnę frazę.\n- Rašykite savo tęsinį (nuo 2 iki 180 ženklų).\n- Išsiųskite frazę per 60 sekundžių.\n\n5. PABAIGA IR DI KOMENTARAS\n- Pasibaigus ratams, atskleidžiamas visas pasakojimas su autorių vardais.\n- Reaguokite emocijomis (😂, 😮, 🔥, ❤️).\n- Spustelėkite „Ką DI pasakys“, kad gautumėte DI analizę!</string>
+</resources>

@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">BlindStory</string>
+    <string name="app_subtitle">משחק "סיפור עיוור"</string>
+    <string name="btn_choose_language">בחירת שפה</string>
+    <string name="auto_redirect_splash">מעבר אוטומטי בעוד %d שניות...</string>
+    <string name="select_language_title">בחר שפת ממשק</string>
+    <string name="auto_redirect_lang">מעבר אוטומטי בעוד %d שניות...</string>
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hebrew">עברית</string>
+    <string name="lang_lithuanian">Lietuvių</string>
+    <string name="btn_continue">המשך</string>
+    <string name="welcome_main">ברוכים הבאים ל-BlindStory!</string>
+
+    <!-- Main Screen Strings -->
+    <string name="main_create_room">צור חדר</string>
+    <string name="main_join_by_code">הצטרף לפי קוד</string>
+    <string name="main_my_stories">הסיפורים שלי</string>
+    <string name="main_profile">פרופיל</string>
+    <string name="main_public_rooms">חדרים פתוחים</string>
+    <string name="main_no_public_rooms">אין חדרים פתוחים פעילים כרגע</string>
+    <string name="dialog_join_title">הזן קוד חדר</string>
+    <string name="dialog_join_hint">לדוגמה KOT123</string>
+    <string name="dialog_join_btn">הצטרף</string>
+    <string name="dialog_cancel">ביטול</string>
+    <string name="code_empty_error">אנא הזן קוד חדר</string>
+    <string name="feature_coming_soon">תכונה זו תהיה זמינה בקרוב!</string>
+
+    <!-- Auth Screen Strings -->
+    <string name="auth_title_login">התחברות לחשבון</string>
+    <string name="auth_title_register">הרשמה</string>
+    <string name="auth_explanation">ההרשמה נחוצה כדי לשמור את הסיפורים שלך ולהגן על המשחק מפני הצצה.</string>
+    <string name="auth_email_hint">אימייל</string>
+    <string name="auth_password_hint">סיסמה</string>
+    <string name="auth_confirm_password_hint">אימות סיסמה</string>
+    <string name="auth_display_name_hint">שם במשחק (לדוגמה חתול)</string>
+    <string name="auth_btn_login">התחבר</string>
+    <string name="auth_btn_register">הירשם</string>
+    <string name="auth_btn_google">התחבר באמצעות Google</string>
+    <string name="auth_toggle_to_register">אין לך חשבון? הירשם</string>
+    <string name="auth_toggle_to_login">כבר יש לך חשבון? התחבר</string>
+    <string name="auth_err_empty">אנא מלא את כל השדות</string>
+    <string name="auth_err_password_match">הסיסמאות אינן תואמות</string>
+    <string name="auth_success_login">ברוך שובך!</string>
+    <string name="auth_success_register">החשבון נוצר בהצלחה!</string>
+    <string name="auth_logged_in_as">מחובר כ: %s</string>
+    <string name="auth_btn_logout">התנתק</string>
+
+    <!-- Create Room & Lobby Strings -->
+    <string name="create_room_title">יצירת חדר</string>
+    <string name="room_name_hint">שם החדר (לדוגמה קוסמוס)</string>
+    <string name="room_topic_hint">נושא הסיפור</string>
+    <string name="starting_phrase_hint">משפט פתיחה</string>
+    <string name="rounds_title">מספר סיבובים</string>
+    <string name="rounds_1">סיבוב 1</string>
+    <string name="rounds_2">2 סיבובים (ברירת מחדל)</string>
+    <string name="rounds_3">3 סיבובים</string>
+    <string name="rounds_3_warning">הערה: 3 סיבובים יצרו סיפור ארוך.</string>
+    <string name="time_limit_title">מגבלת זמן לתור</string>
+    <string name="time_10m">10 דקות</string>
+    <string name="time_15m">15 דקות</string>
+    <string name="time_30m">30 דקות</string>
+    <string name="time_unlimited">ללא הגבלה</string>
+    <string name="privacy_title">פרטיות</string>
+    <string name="privacy_private">פרטי (לפי הזמנה בלבד)</string>
+    <string name="privacy_public">חדר ציבורי</string>
+    <string name="ai_option_title">אפשר פרשן בינה מלאכותית בסיום הסיפור</string>
+    <string name="ai_show_names_title">אפשר ל-AI לראות שמות מחברים</string>
+    <string name="btn_create_room_submit">צור חדר ופתח לובי</string>
+
+    <string name="lobby_title">חדר: %s</string>
+    <string name="lobby_host_badge">מארח</string>
+    <string name="lobby_players_title">שחקנים (%d)</string>
+    <string name="lobby_code_label">קוד חדר:</string>
+    <string name="lobby_copy_code">העתק קוד</string>
+    <string name="lobby_share_link">שתף קישור</string>
+    <string name="btn_start_game">התחל משחק</string>
+    <string name="btn_need_3_players">דרושים לפחות 3 שחקנים (%d/3)</string>
+    <string name="lobby_waiting_for_host">ממתין למארח שיתחיל...</string>
+    <string name="code_copied">קוד החדר הועתק ללוח!</string>
+
+    <!-- Turn / Game Screen Strings -->
+    <string name="game_turn_title">משפט %1$d מתוך %2$d</string>
+    <string name="game_prev_phrase_label">המשפט הקודם:</string>
+    <string name="game_input_placeholder">המשך את הסיפור...</string>
+    <string name="game_char_counter">%1$d / %2$d</string>
+    <string name="game_sentences_hint">עד 2 משפטים</string>
+    <string name="game_btn_submit">שלח</string>
+    <string name="game_phrase_accepted">המשפט שלך התקבל!</string>
+    <string name="game_current_turn_other">תור נוכחי: %s</string>
+    <string name="game_btn_propose_end">הצע לסיים</string>
+    <string name="game_skip_turn">דלג על התור</string>
+    <string name="game_skip_confirm_title">בטוח לדלג על התור?</string>
+    <string name="game_skip_confirm_msg">התור שלך יעבור לשחקן הבא.</string>
+    <string name="game_skip_confirm_btn">כן, דלג</string>
+
+    <string name="vote_title">הצבעה לסיום המשחק</string>
+    <string name="vote_option_round">סיים לאחר הסיבוב הנוכחי (דרוש רוב)</string>
+    <string name="vote_option_immediate">סיים מיד (דרושה פה אחד)</string>
+    <string name="vote_submitted">ההצבעה התקבלה!</string>
+
+    <!-- Final Screen Strings -->
+    <string name="final_title">סיום: %s</string>
+    <string name="final_status_completed">הסיפור הושלם (%d משפטים)</string>
+    <string name="final_ai_button">מה ה-AI יגיד על הסיפור שלנו?</string>
+    <string name="final_ai_title">ניתוח AI</string>
+    <string name="final_ai_disclaimer">זוהי תגובת AI, היא עשויה לטעות.</string>
+    <string name="final_ai_suggested_titles">כותרות מוצעות:</string>
+    <string name="final_ai_summary">תקציר:</string>
+    <string name="final_ai_funniest">הרגע הכי מצחיק:</string>
+    <string name="final_ai_twist">טוויסט בלתי צפוי:</string>
+    <string name="final_ai_coherence">דירוג עקביות:</string>
+    <string name="final_ai_genre">ז\'אנר:</string>
+    <string name="final_ai_moral">מוסר השכל:</string>
+    <string name="final_btn_rematch">משחק חוזר עם אותה קבוצה</string>
+    <string name="final_btn_copy_story">העתק את הסיפור המלא</string>
+    <string name="final_story_copied">הסיפור המלא הועתק ללוח!</string>
+
+    <!-- Menu & Guide Strings -->
+    <string name="menu_guide">מדריך</string>
+    <string name="menu_back">חזרה</string>
+    <string name="menu_exit">יציאה מהאפליקציה</string>
+    <string name="guide_title">מדריך וחוקי המשחק</string>
+    <string name="guide_content">ברוכים הבאים ל-BLINDSTORY!\n\n1. רעיון המשחק\nBlindStory הוא משחק מילים קבוצתי שבו כותבים סיפור ביחד. הטוויסט? כל שחקן רואה אך ורק את המשפט האחרון שנכתב לפניו!\n\n2. צעדים ראשונים\n- שפה: בחר שפת ממשק (אנגלית, רוסית, עברית, ליתואנית).\n- הרשמה: הירשם עם אימייל או Google כדי לשמור את הסיפורים שלך.\n\n3. יצירת חדר והצטרפות\n- המארח יוצר חדר עם נושא, משפט פתיחה, סיבובים (1-3) ומגבלת זמן.\n- קוד החדר (כגון KOT123) מועבר לחברים.\n- נדרשים לפחות 3 שחקנים כדי להתחיל את המשחק.\n\n4. איך משחקים\n- קרא רק את המשפט הקודם ("עיקרון הפתק המקופל").\n- כתוב את ההמשך שלך (2 עד 180 תוים).\n- שלח את הפראזה תוך 60 שניות.\n- במידת הצורך תוכל להציע לסיים את המשחק או לדלג על התור.\n\n5. סיום ופרשן AI\n- בסיום הסיבובים נחשף הסיפור המלא עם שמות המחברים.\n- הוסף תגובות אימוג\'י (😂, 😮, 🔥, ❤️).\n- לחץ על "מה ה-AI יגיד" לקבלת ניתוח מצחיק, כותרות ומוסר השכל!</string>
+</resources>

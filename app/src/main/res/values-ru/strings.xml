@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Слепой рассказ</string>
+    <string name="app_subtitle">Игра «Слепой рассказ»</string>
+    <string name="btn_choose_language">Выбор языка</string>
+    <string name="auto_redirect_splash">Автоматический переход через %d сек...</string>
+    <string name="select_language_title">Выберите язык интерфейса</string>
+    <string name="auto_redirect_lang">Автоматический переход через %d сек...</string>
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hebrew">עברית</string>
+    <string name="lang_lithuanian">Lietuvių</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="welcome_main">Добро пожаловать в «Слепой рассказ»!</string>
+
+    <!-- Main Screen Strings -->
+    <string name="main_create_room">Создать комнату</string>
+    <string name="main_join_by_code">Войти по коду</string>
+    <string name="main_my_stories">Мои рассказы</string>
+    <string name="main_profile">Профиль</string>
+    <string name="main_public_rooms">Открытые комнаты</string>
+    <string name="main_no_public_rooms">Сейчас нет активных открытых комнат</string>
+    <string name="dialog_join_title">Введите код комнаты</string>
+    <string name="dialog_join_hint">Например, KOT123</string>
+    <string name="dialog_join_btn">Войти</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="code_empty_error">Пожалуйста, введите код комнаты</string>
+    <string name="feature_coming_soon">Функция скоро будет доступна!</string>
+
+    <!-- Auth Screen Strings -->
+    <string name="auth_title_login">Вход в аккаунт</string>
+    <string name="auth_title_register">Регистрация</string>
+    <string name="auth_explanation">Регистрация нужна, чтобы сохранить ваши рассказы и защитить игру от подсматривания.</string>
+    <string name="auth_email_hint">Электронная почта</string>
+    <string name="auth_password_hint">Пароль</string>
+    <string name="auth_confirm_password_hint">Подтвердите пароль</string>
+    <string name="auth_display_name_hint">Игровое имя (например, Кот)</string>
+    <string name="auth_btn_login">Войти</string>
+    <string name="auth_btn_register">Зарегистрироваться</string>
+    <string name="auth_btn_google">Войти через Google</string>
+    <string name="auth_toggle_to_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="auth_toggle_to_login">Уже есть аккаунт? Войти</string>
+    <string name="auth_err_empty">Пожалуйста, заполните все поля</string>
+    <string name="auth_err_password_match">Пароли не совпадают</string>
+    <string name="auth_success_login">С возвращением!</string>
+    <string name="auth_success_register">Аккаунт успешно создан!</string>
+    <string name="auth_logged_in_as">Вы вошли как: %s</string>
+    <string name="auth_btn_logout">Выйти из аккаунта</string>
+
+    <!-- Create Room & Lobby Strings -->
+    <string name="create_room_title">Создание комнаты</string>
+    <string name="room_name_hint">Название комнаты (например, Космос)</string>
+    <string name="room_topic_hint">Тема рассказа</string>
+    <string name="starting_phrase_hint">Стартовая фраза</string>
+    <string name="rounds_title">Число кругов</string>
+    <string name="rounds_1">1 круг</string>
+    <string name="rounds_2">2 круга (по умалч.)</string>
+    <string name="rounds_3">3 круга</string>
+    <string name="rounds_3_warning">Предупреждение: 3 круга создадут длинную историю.</string>
+    <string name="time_limit_title">Время на ход</string>
+    <string name="time_10m">10 минут</string>
+    <string name="time_15m">15 минут</string>
+    <string name="time_30m">30 минут</string>
+    <string name="time_unlimited">Без лимита</string>
+    <string name="privacy_title">Приватность</string>
+    <string name="privacy_private">Приватная (по ссылке/коду)</string>
+    <string name="privacy_public">Открытая комната</string>
+    <string name="ai_option_title">Включить комментарий ИИ после финала</string>
+    <string name="ai_show_names_title">Показывать имена авторов для ИИ</string>
+    <string name="btn_create_room_submit">Создать комнату и открыть лобби</string>
+
+    <string name="lobby_title">Комната: %s</string>
+    <string name="lobby_host_badge">Ведущий</string>
+    <string name="lobby_players_title">Игроки (%d)</string>
+    <string name="lobby_code_label">Код комнаты:</string>
+    <string name="lobby_copy_code">Копировать код</string>
+    <string name="lobby_share_link">Поделиться ссылкой</string>
+    <string name="btn_start_game">Начать игру</string>
+    <string name="btn_need_3_players">Нужно минимум 3 игрока (%d/3)</string>
+    <string name="lobby_waiting_for_host">Ждем, когда ведущий начнет игру...</string>
+    <string name="code_copied">Код комнаты скопирован!</string>
+
+    <!-- Turn / Game Screen Strings -->
+    <string name="game_turn_title">Фраза %1$d из %2$d</string>
+    <string name="game_prev_phrase_label">Предыдущая фраза:</string>
+    <string name="game_input_placeholder">Продолжите историю...</string>
+    <string name="game_char_counter">%1$d / %2$d</string>
+    <string name="game_sentences_hint">До 2 предложений</string>
+    <string name="game_btn_submit">Отправить</string>
+    <string name="game_phrase_accepted">Ваша фраза принята!</string>
+    <string name="game_current_turn_other">Сейчас ходит: %s</string>
+    <string name="game_btn_propose_end">Предложить финал</string>
+    <string name="game_skip_turn">Пропустить ход</string>
+    <string name="game_skip_confirm_title">Точно пропустить ход?</string>
+    <string name="game_skip_confirm_msg">Ваш ход перейдет к следующему игроку.</string>
+    <string name="game_skip_confirm_btn">Да, пропустить</string>
+
+    <string name="vote_title">Предложить финал</string>
+    <string name="vote_option_round">Закончить после круга (Нужно большинство)</string>
+    <string name="vote_option_immediate">Закончить сразу (Нужно единогласие)</string>
+    <string name="vote_submitted">Голос принят!</string>
+
+    <!-- Final Screen Strings -->
+    <string name="final_title">Финал: %s</string>
+    <string name="final_status_completed">История завершена, %d фраз</string>
+    <string name="final_ai_button">Что скажет ИИ про наш рассказ</string>
+    <string name="final_ai_title">Анализ ИИ</string>
+    <string name="final_ai_disclaimer">Это комментарий ИИ, он может ошибаться.</string>
+    <string name="final_ai_suggested_titles">Варианты названия:</string>
+    <string name="final_ai_summary">Пересказ:</string>
+    <string name="final_ai_funniest">Самый смешной момент:</string>
+    <string name="final_ai_twist">Самый неожиданный поворот:</string>
+    <string name="final_ai_coherence">Оценка связности:</string>
+    <string name="final_ai_genre">Жанр:</string>
+    <string name="final_ai_moral">Мораль:</string>
+    <string name="final_btn_rematch">Реванш с тем же составом</string>
+    <string name="final_btn_copy_story">Скопировать рассказ</string>
+    <string name="final_story_copied">Полный рассказ скопирован!</string>
+
+    <!-- Menu & Guide Strings -->
+    <string name="menu_guide">Инструкция</string>
+    <string name="menu_back">Назад</string>
+    <string name="menu_exit">Выйти из приложения</string>
+    <string name="guide_title">Инструкция и правила игры</string>
+    <string name="guide_content">ДОБРО ПОЖАЛОВАТЬ В «СЛЕПОЙ РАССКАЗ»!\n\n1. СУТЬ ИГРЫ\n«Слепой рассказ» — это коллективная онлайн-игра. Игроки по очереди пишут одну общую историю. Главная фишка: каждый игрок видит ТОЛЬКО одну предыдущую фразу!\n\n2. НАЧАЛО И ЯЗЫК\n- Выберите язык интерфейса (английский, русский, иврит, литовский).\n- Зарегистрируйтесь по Email или через Google, чтобы ваши рассказы сохранялись.\n\n3. СОЗДАНИЕ И ВХОД В КОМНАТУ\n- Ведущий создает комнату: указывает тему, стартовую фразу, количество кругов (1–3) и время на ход.\n- Код комнаты (например, KOT123) отправляется друзьям.\n- Для начала игры требуется минимум 3 участника.\n\n4. ИГРОВОЙ ПРОЦЕСС\n- Читайте только предыдущую фразу (принцип «листа бумаги»).\n- Пишите свое продолжение (от 2 до 180 символов).\n- Отправьте фразу до истечения 60 секунд.\n- Вы можете предложить завершить игру досрочно или пропустить ход.\n\n5. ФИНАЛ И ИИ-КОММЕНТАТОР\n- По завершении всех кругов открывается весь текст рассказа с именами авторов.\n- Ставьте эмодзи-реакции (😂, 😮, 🔥, ❤️).\n- Нажмите кнопку «Что скажет ИИ про наш рассказ», чтобы получить варианты названия, пересказ, самый смешной момент и мораль!</string>
+</resources>
